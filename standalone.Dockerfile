@@ -4,7 +4,7 @@ LABEL org.opencontainers.image.source=https://github.com/bokub/ha-linky
 LABEL org.opencontainers.image.description="HA Linky Standalone"
 LABEL org.opencontainers.image.licenses=MIT
 
-RUN apk add --no-cache nodejs npm
+RUN apk add --update nodejs npm
 
 WORKDIR /linky
 
